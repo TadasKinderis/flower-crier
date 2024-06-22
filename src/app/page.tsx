@@ -11,6 +11,7 @@ export default function Home() {
       <div className="block">
         <App />
       </div>
+      <div className="block"></div>
     </main>
   );
 }
