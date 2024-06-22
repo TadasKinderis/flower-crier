@@ -16,7 +16,7 @@ export default function StorytellerInfoCell(props: StorytellerInfoCellProps) {
   const { index, info, changeChoice } = props;
   return (
     <td>
-      <div className="buttons">
+      <div className="buttons has-addons">
         <button
           className={
             "button is-success " +
@@ -30,7 +30,7 @@ export default function StorytellerInfoCell(props: StorytellerInfoCellProps) {
         </button>
         <button
           className={
-            "button is-info " +
+            "button is-primary " +
             (info === StorytellerChoice.Unknown ? "" : "is-light")
           }
           onClick={() => changeChoice(index, StorytellerChoice.Unknown)}

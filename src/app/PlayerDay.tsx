@@ -12,7 +12,7 @@ export default function PlayerDay(props: PlayerDayProps) {
   const { index, votingInfo, toggleVoting } = props;
   return (
     <td>
-      <div className="buttons">
+      <div className="buttons has-addons">
         <button
           className={
             "button is-primary " + (votingInfo.voted ? "" : "is-light")

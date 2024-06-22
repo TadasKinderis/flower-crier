@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-bulma": "sass --load-path=node_modules flower-crier.scss flower-crier.css"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
@@ -15,7 +16,8 @@
     "bulma": "^1.0.1",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sass": "^1.77.6"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",

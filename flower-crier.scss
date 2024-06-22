@@ -1,0 +1,5 @@
+// $purple: #31153e;
+$purple: #31153e;
+@use "bulma/sass" with (
+  $primary: $purple
+);

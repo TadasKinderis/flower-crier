@@ -12,7 +12,7 @@ export default function RoleButtons({ role, toggleRole }: RoleButtons) {
   const isMinion = (role & Role.Minion) === Role.Minion;
   const isDemon = (role & Role.Demon) === Role.Demon;
   return (
-    <div className="buttons">
+    <div className="buttons has-addons">
       <button
         className={"button is-info " + (isTownsfolk ? "" : "is-light")}
         onClick={() => toggleRole(Role.Townsfolk)}
@@ -30,7 +30,7 @@ export default function RoleButtons({ role, toggleRole }: RoleButtons) {
         </span>
       </button>
       <button
-        className={"button is-danger " + (isDemon ? "" : "is-light")}
+        className={"button is-danger " + (isDemon ? "is-dark" : "is-light")}
         onClick={() => toggleRole(Role.Demon)}
       >
         <span className="icon">

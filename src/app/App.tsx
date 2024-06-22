@@ -94,10 +94,10 @@ export default function App() {
         />
       </div>
       <div className="buttons">
-        <button className="button is-success" onClick={addPlayer}>
+        <button className="button is-primary" onClick={addPlayer}>
           Add Player
         </button>
-        <button className="button is-success" onClick={addDay}>
+        <button className="button is-primary" onClick={addDay}>
           Add Day
         </button>
       </div>
